@@ -532,5 +532,6 @@ async function enviar() {
   try { const d = await api({ logo: 1 }); if (d.ok) { pon(d.src); try { localStorage.setItem('cc_logo', d.src); } catch (e) {} } } catch (e) {} })();
 render();
 </script>
+<script src="mejoras.js"></script>
 </body>
 </html>
